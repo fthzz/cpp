@@ -1,0 +1,3 @@
+pair 通常用于遍历 std::map、std::unordered_map、std::set 和 std::unordered_set 这样的关联容器，因为这些容器中的元素本身就是键值对（对于 std::map 和 std::unordered_map）或者单个值（对于 std::set 和 std::unordered_set）。
+
+对于这些容器，使用基于范围的 for 循环和 pair 可以方便地访问每个元素的键和值。
